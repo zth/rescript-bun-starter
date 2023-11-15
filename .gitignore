@@ -1,0 +1,4 @@
+src/**/*.js
+tests/**/*.js
+node_modules
+lib

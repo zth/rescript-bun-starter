@@ -1,0 +1,30 @@
+{
+  "name": "rescript-bun-starter",
+  "version": "1.0.0",
+  "description": "A starter for using Bun with ReScript.",
+  "main": "src/Main.js",
+  "scripts": {
+    "test": "bun test tests/*.test.*",
+    "dev:test": "bun run test --watch",
+    "build:rescript": "rescript build",
+    "build": "bun run build:rescript",
+    "dev:rescript": "rescript build -w",
+    "dev:server": "bun run --watch src/Main.js",
+    "dev": "bun run build:rescript && concurrently 'bun:dev:*'"
+  },
+  "keywords": [
+    "rescript",
+    "bun",
+    "starter"
+  ],
+  "author": "Gabriel Nordeborn",
+  "license": "MIT",
+  "dependencies": {
+    "@rescript/core": "^0.5.0",
+    "rescript": "^11.0.0-rc.5",
+    "rescript-bun": "0.1.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
