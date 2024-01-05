@@ -7,7 +7,7 @@ A starter for getting up and running quickly with ReScript and Bun.
 Run installation:
 
 ```bash
-npm i
+bun i
 ```
 
 This uses `npm` to install packages, but you can use `bun install` as well if you'd like.
