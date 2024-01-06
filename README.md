@@ -10,8 +10,6 @@ Run installation:
 bun i
 ```
 
-This uses `npm` to install packages, but you can use `bun install` as well if you'd like.
-
 All dev-time scripts can be run at the same time via:
 
 ```bash
