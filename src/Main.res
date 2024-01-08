@@ -24,7 +24,7 @@ let server = Bun.serve({
         ->URL.searchParams
         ->URLSearchParams.get(name)
         ->Option.flatMap(v => Int.fromString(v))
-        ->Option.getWithDefault(0)
+        ->Option.getOr(0)
 
       let a = getIntFromQueryParam("a")
       let b = getIntFromQueryParam("b")

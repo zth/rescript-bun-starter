@@ -20,9 +20,9 @@
   "author": "Gabriel Nordeborn",
   "license": "MIT",
   "dependencies": {
-    "@rescript/core": "^0.5.0",
+    "@rescript/core": "^0.6.0",
     "rescript": "^11.0.0-rc.8",
-    "rescript-bun": "0.2.1"
+    "rescript-bun": "0.3.1"
   },
   "devDependencies": {
     "concurrently": "^8.2.2"
